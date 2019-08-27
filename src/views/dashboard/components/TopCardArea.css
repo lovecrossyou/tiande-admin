@@ -1,0 +1,56 @@
+.card_wrapper {
+	width: 24%;
+	height: 157px;
+	background-color: #fff;
+	border-radius: 3px;
+	padding: 20px;
+	box-sizing: border-box
+}
+.top_data_area{
+	width: 100%;
+	height: 78px;
+	border-bottom: 1px solid #f2f2f2;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.credit_image_wrapper{
+	width: 50px;
+	height: 50px;
+	padding: 5px 0 0 6px;
+	box-sizing: border-box;
+	border: 1px solid #36a2f5;
+	border-radius: 50%;
+}
+.credit_image{
+	width: 35px;
+	height: 35px;
+}
+.data_title{
+	font-size: 18px;
+    color: #999999;
+    font-weight: 400;
+}
+.data_num{
+	font-size: 22px;
+    color: #2e2e3a;
+    font-weight: 500;
+}
+.bottom_update_area{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 15px;
+}
+.bottom_update_state{
+	font-size: 14px;
+    color: #999999;
+}
+.bottom_update_time{
+	font-size: 12px;
+	font-weight: 500;
+	color: #22af47
+}

@@ -1,0 +1,35 @@
+.top_card_row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.statistics_list{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.demo-loadmore-list{
+    width: 32%;
+    background-color: #fff;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.header_text{
+    color: #53505f;
+    font-size: 18px;
+    font-weight: 500;
+}
+.size_text{
+    width: 13%;
+    color: #53505f;
+    font-size: 14px;
+}
+.ant-list-item-meta-description{
+    color: #53505f;
+    font-size: 14px;
+    margin-left: 35px;
+    margin-top: 5px;
+}

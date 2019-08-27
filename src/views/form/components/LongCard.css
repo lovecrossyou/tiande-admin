@@ -1,0 +1,26 @@
+.long_card_area{
+    width: 32%;
+    height: 82px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.long_left_icon{
+    width: 33px;
+    height: 33px;
+    background-color: pink;
+    margin-left: 20px;
+}
+.long_right_area{
+    margin-left: 60px;
+}
+.long_top_title{
+    color: #53505f;
+    font-size: 12px;
+}
+.long_bottom_text{
+    color: #53505f;
+    font-size: 16px;
+    font-weight: bold;
+}

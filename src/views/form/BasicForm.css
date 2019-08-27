@@ -1,0 +1,101 @@
+.footer_wrapper{
+    width: 100%;
+}
+.company_info{
+    width: 100%;
+    height: 170px;
+    margin-bottom: 30px;
+    color: #696969;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .08);
+    padding: 20px;
+    box-sizing: border-box;
+}
+.company_name{
+    color: #53505f;
+    font-size: 14px;
+    font-weight: bold;
+}
+.company_basic_info{
+    width: 100%;
+    height: 38px;
+    border-radius: 3px;
+    background-color: #62b7ea ;
+    padding-left: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 14px;
+    line-height: 38px;
+    margin-top: 15px;
+}
+.company_info_text{
+    margin-top: 30px;
+    color: #53505f;
+    font-size: 14px;
+}
+.template_row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.blue_card_area{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.blue_wrapper{
+    width: 45%;
+    height: 130px;
+    border-radius: 3px;
+    background-color: #568dbb;
+}
+.left_img{
+    width: 30px;
+    height: auto;
+}
+.blue_wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.left_img{
+    margin-left: 15px;
+}
+.top_text{
+    color: #fff;
+}
+.bottom_font_text{
+    font-size: 16px;
+    color: #fff;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.blue_two_wrapper{
+    width: 25%;
+    height: 130px;
+    border-radius: 3px;
+    background-color: #62b7ea;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.blue_three_wrapper{
+    width: 25%;
+    height: 130px;
+    border-radius: 3px;
+    background-color: #699abf ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bottom_template_row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}

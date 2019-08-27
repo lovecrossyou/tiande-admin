@@ -70,7 +70,7 @@ $borderColor: #d8d8d8;
 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1), 0 1px 4px rgba(0, 0, 0, 0.1);
 	border-radius: 2px;
 	padding: 15px;
-	background-color: #fff !important;
+	background-color: #eaeef3 !important;
 	min-height: 85vh;
 }
 
@@ -211,4 +211,30 @@ $borderColor: #d8d8d8;
 			}
 		}
 	}
+}
+
+.ant-layout-sider-dark{
+	background: url(../img/sidebar_bg.jpg);
+	width: 270px!important;
+	flex: 0 0 269px!important; 
+	max-width: 270px!important; 
+	min-width: 270px!important;
+	width: 270px!important;
+	z-index: 9!important;
+}
+.ant-menu-sub{
+	background:none!important;
+}
+.ant-menu-inline{
+	background:none!important;
+}
+.ant-menu-item-selected{
+	background:none!important
+}
+.ant-menu-item-selected:hover{
+	background: rgba(255,255,255,0.6)!important
+}
+
+.ant-menu-item:hover{
+	background: rgba(255,255,255,0.6)!important
 }
