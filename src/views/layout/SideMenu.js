@@ -71,8 +71,12 @@ class SideNenu extends Component {
 		const { collapse } = this.props;
 		return (
 			<Sider trigger={null} collapsible collapsed={collapse.isCollapsed} theme={type} className="app-sider">
-				<div className="logo" style={{ color: type === 'dark' ? '#ffffffa6' : '' }}>
-					天德科技
+				{/* <div className="logo" style={{ color: type === 'dark' ? '#ffffffa6' : '' }}>
+					天德科技111
+				</div> */}
+				<div className="top_user_info">
+					<img src='http://pw46mclen.bkt.clouddn.com/touXiangImg.png' className="user_img" alt='' />
+					<div className="user_name">admin</div>
 				</div>
 				<Menu style={{ height: '50px' }} theme={type} defaultOpenKeys={[menuOpened]} defaultSelectedKeys={[menuSelected]} selectedKeys={[menuSelected]} mode="inline">
 					{this.renderMenu(menus)}

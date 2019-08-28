@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Icon, Avatar, Dropdown, Menu, Badge } from 'antd';
+import { Icon, Avatar, Dropdown, Menu, Badge, Input } from 'antd';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 import { setUserInfo } from '@/redux/actions/userInfo';
@@ -9,6 +9,7 @@ import { routes } from '@/router/routes';
 import FullScreen from '@/components/FullScreen';
 import Tags from './Tags';
 import BasicDrawer from '@/components/BasicDrawer';
+const { Search } = Input;
 
 class TopHeader extends Component {
 	state = { visible: false };
@@ -82,7 +83,11 @@ class TopHeader extends Component {
 			<div className="top-header">
 				<div className="top-header-inner">
 					<Icon className="trigger" type={true ? 'menu-unfold' : 'menu-fold'} onClick={this.toggle} />
-					<div className="header-title">天德科技后台管理系统</div>
+					<Search
+						placeholder="Search..."
+						onSearch={value => console.log(value)}
+						style={{ width: 300,marginLeft:-950}}
+					/>
 					<div className="header-right">
 						<div className="full-screen">
 							<FullScreen />
