@@ -1,14 +1,15 @@
 import React from "react";
-import "./TopCardArea.css"
+import "./TopCardArea.css";
+import { Icon } from 'antd';
 
 export default class CreditImageText extends React.Component {
 
   render() {
-    const { CreditImage, CreditText, CreditNum, UpdateState, UpdateTime } = this.props;
+    const {CreditImage, CreditText, CreditNum, UpdateState, UpdateTime } = this.props;
     return <div className="card_wrapper">
       <div className="top_data_area">
         <div className="credit_image_wrapper">
-          <img src={CreditImage} className="credit_image" alt=''/>
+        <Icon type={CreditImage} style={{ fontSize: '30px', color: '#36a2f5' }} className="center_icon" />
         </div>
         <div className="right_data_info">
           <div className="data_title">{CreditText}</div>

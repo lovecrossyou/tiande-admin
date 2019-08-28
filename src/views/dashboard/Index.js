@@ -29,28 +29,28 @@ class Index extends Component {
 			<div className="shadow-radius">
 				<div className="top_card_row">
 					<TopCardArea
-						CreditImage="http://img3.imgtn.bdimg.com/it/u=3737479456,2758445067&fm=26&gp=0.jpg"
+						CreditImage="team"
 						CreditText="Employees"
 						CreditNum="305"
 						UpdateState="Last Update"
 						UpdateTime="2019.08.21"
 					/>
 					<TopCardArea
-						CreditImage="http://img3.imgtn.bdimg.com/it/u=3737479456,2758445067&fm=26&gp=0.jpg"
+						CreditImage="gold"
 						CreditText="Products"
 						CreditNum="3"
 						UpdateState="Last Update"
 						UpdateTime="2019.08.21"
 					/>
 					<TopCardArea
-						CreditImage="http://img3.imgtn.bdimg.com/it/u=3737479456,2758445067&fm=26&gp=0.jpg"
+						CreditImage="mail"
 						CreditText="Messages"
 						CreditNum="1228"
 						UpdateState="Last month"
 						UpdateTime="Normal"
 					/>
 					<TopCardArea
-						CreditImage="http://img3.imgtn.bdimg.com/it/u=3737479456,2758445067&fm=26&gp=0.jpg"
+						CreditImage="heart"
 						CreditText="Followers"
 						CreditNum="+1234K"
 						UpdateState="Update now"

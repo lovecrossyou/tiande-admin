@@ -7,9 +7,8 @@
     align-items: center;
 }
 .left_icon{
-    width: 33px;
-    height: 33px;
-    background-color: pink;
+    font-size: 30px;
+    color: #a768f3;
     margin-left: 20px;
 }
 .right_area{

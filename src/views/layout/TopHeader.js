@@ -82,11 +82,12 @@ class TopHeader extends Component {
 		return (
 			<div className="top-header">
 				<div className="top-header-inner">
-					<Icon className="trigger" type={true ? 'menu-unfold' : 'menu-fold'} onClick={this.toggle} />
+					{/* <Icon className="trigger" type={true ? 'menu-unfold' : 'menu-fold'} onClick={this.toggle} /> */}
+
 					<Search
 						placeholder="Search..."
 						onSearch={value => console.log(value)}
-						style={{ width: 300,marginLeft:-950}}
+						style={{ width: 270 }}
 					/>
 					<div className="header-right">
 						<div className="full-screen">

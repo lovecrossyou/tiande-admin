@@ -18,10 +18,13 @@
 .credit_image_wrapper{
 	width: 50px;
 	height: 50px;
-	padding: 5px 0 0 6px;
-	box-sizing: border-box;
 	border: 1px solid #36a2f5;
 	border-radius: 50%;
+}
+.center_icon{
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
 }
 .credit_image{
 	width: 35px;

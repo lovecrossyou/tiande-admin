@@ -2,6 +2,8 @@ import React from "react";
 import MainCard from "./components/MainCard";
 import LongCard from "./components/LongCard";
 import FooterBar from "../components/FooterBar";
+import { Icon } from 'antd';
+
 import "./BasicForm.css"
 
 export default class CreditImageText extends React.Component {
@@ -15,43 +17,45 @@ export default class CreditImageText extends React.Component {
 			</div>
 			<div className="template_row">
 				<MainCard
-					ImgSrc="http://img2.imgtn.bdimg.com/it/u=4016587913,1535101933&fm=26&gp=0.jpg"
+					ImgSrc="global"
 					TopTitle="Industry"
 					BottomText="Blockchain"
 				/>
 				<MainCard
-					ImgSrc="http://img2.imgtn.bdimg.com/it/u=4016587913,1535101933&fm=26&gp=0.jpg"
+					ImgSrc="gold"
 					TopTitle="Company Type"
 					BottomText="Normal"
 				/>
 				<MainCard
-					ImgSrc="http://img2.imgtn.bdimg.com/it/u=4016587913,1535101933&fm=26&gp=0.jpg"
+					ImgSrc="link"
 					TopTitle="Website"
 					BottomText="www.tdchain.cn"
 				/>
 				<MainCard
-					ImgSrc="http://img2.imgtn.bdimg.com/it/u=4016587913,1535101933&fm=26&gp=0.jpg"
+					ImgSrc="user-add"
 					TopTitle="Representative"
 					BottomText="Tsai"
 				/>
 			</div>
 			<div className="blue_card_area">
 				<div className="blue_wrapper">
-					<img src="http://pw46mclen.bkt.clouddn.com/dyvms%20%E8%AF%AD%E9%9F%B3%E6%9C%8D%E5%8A%A1.png" className="left_img" alt='' />
+					<Icon type="environment" className="left_img" style={{ fontSize: '30px', color: '#fff' }} />
 					<div className="right_area">
 						<div className="top_text">Address</div>
 						<div className="bottom_font_text">北京市朝阳区</div>
 					</div>
 				</div>
 				<div className="blue_two_wrapper">
-					<img src="http://pw46mclen.bkt.clouddn.com/opensearch%20%281%29.png" className="left_img" alt='' />
+					<Icon type="phone" className="left_img" style={{ fontSize: '30px', color: '#fff' }} />
+
 					<div className="right_area">
 						<div className="top_text">Address</div>
 						<div className="bottom_font_text">北京市朝阳区</div>
 					</div>
 				</div>
 				<div className="blue_three_wrapper">
-					<img src="http://pw46mclen.bkt.clouddn.com/dyvms%20%E8%AF%AD%E9%9F%B3%E6%9C%8D%E5%8A%A1.png" className="left_img" alt='' />
+					<Icon type="mail" className="left_img" style={{ fontSize: '30px', color: '#fff' }} />
+
 					<div className="right_area">
 						<div className="top_text">Address</div>
 						<div className="bottom_font_text">北京市朝阳区</div>
@@ -60,17 +64,17 @@ export default class CreditImageText extends React.Component {
 			</div>
 			<div className="bottom_template_row">
 				<LongCard
-					ImgSrc="http://img2.imgtn.bdimg.com/it/u=4016587913,1535101933&fm=26&gp=0.jpg"
+					ImgSrc="switcher"
 					TopTitle="Industry"
 					BottomText="Blockchain"
 				/>
 				<LongCard
-					ImgSrc="http://img2.imgtn.bdimg.com/it/u=4016587913,1535101933&fm=26&gp=0.jpg"
+					ImgSrc="profile"
 					TopTitle="Company Type"
 					BottomText="Normal"
 				/>
 				<LongCard
-					ImgSrc="http://img2.imgtn.bdimg.com/it/u=4016587913,1535101933&fm=26&gp=0.jpg"
+					ImgSrc="mail"
 					TopTitle="Website"
 					BottomText="www.tdchain.cn"
 				/>
